@@ -1,0 +1,30 @@
+.card{
+    border: solid 5px #ca7a7a;
+    border-radius: .5rem;
+}
+.card-action{
+    color: #ca7a7a;
+    font-family: 'Oleo Script', cursive;
+    background-color: #ca7a7a50;
+    text-align: center;
+}
+a{
+    font-size: 1.25em;
+}
+#link{
+    background-color: #ca7a7a50
+}
+.card-image{
+    border-bottom: solid 2px #ca7a7a50;
+}
+h5{
+    color: #ca7a7a;
+    font-weight: bold;
+    text-align: center;
+}
+.card-content{
+    padding-top: 12px;
+}
+#projectLink:hover{
+    color:white;
+}

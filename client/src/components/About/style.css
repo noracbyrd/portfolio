@@ -1,0 +1,19 @@
+#headshot{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #ca7a7a;
+    border-radius: .5rem;
+}
+
+#pictureBox {
+    border-radius: .5rem;
+}
+
+p{
+    text-align: left;
+    margin: auto;
+}
+
+a{
+    color: #ca7a7a;
+}
