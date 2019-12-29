@@ -59,6 +59,11 @@ class Portfolio extends Component {
             <div className="container">
                 {/* looping through my included projects */}
                 <div className="row">
+                    <div className="col s6 offset-s3">
+                        <h4>Projects</h4>
+                    </div>
+                </div>
+                <div className="row">
                     
                 {this.state.projects.map(project => (
                     // <div data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing = "linear">

@@ -1,15 +1,17 @@
 import React from "react";
 // import M from "materialize-css";
 import "./style.css";
+import Aos from "aos"
 
 function PortfolioCard(props) {
   // M.AutoInit()
+  Aos.init();
   return (
 
     < div className="col s6">
       
           {/* <div className="carousel-fixed-item center card hoverable"> */}
-          <div className="card hoverable">
+          <div data-aos="zoom-in" className="card hoverable">
             <div id="layer" className="card-image">
               <img src={props.image} alt={props.alt}></img>
             </div>
