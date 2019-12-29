@@ -8,7 +8,12 @@ class Contact extends Component {
                 <div className="row">
                         <div className="col s6 offset-s3">
                             <h4>Contact</h4>
-                            <h6>And she sings, too! If you were looking to book Nora for singing gigs, click here!</h6>
+                            <h6>Email Nora</h6>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div classname="secretLink">
+                            <a><img alt="ncb logo" src="http://ryanabney.com/nora/ncb.png"></img></a>
                         </div>
                     </div>
             </div>
