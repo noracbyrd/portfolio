@@ -25,60 +25,62 @@ class Portfolio extends Component {
             },
             {
                 "key": 3,
-                "title" : "MEMORY GAME",
-                "text" : "The goal of this game, built in React, is to click all of the pictures without clicking on the same one twice.",
-                "link" : "https://stormy-castle-50493.herokuapp.com/",
-                "image" : "http://ryanabney.com/nora/memorygame.png",
-                "alt" : "Memory Game thumbnail"
+                "title": "MEMORY GAME",
+                "text": "The goal of this game, built in React, is to click all of the pictures without clicking on the same one twice.",
+                "link": "https://stormy-castle-50493.herokuapp.com/",
+                "image": "http://ryanabney.com/nora/memorygame.png",
+                "alt": "Memory Game thumbnail"
             },
             {
                 "key": 4,
-                "title" : "GLAMAZON",
-                "text" : "This CLI project in Node.js creates a mock online retail store, loosely modeled after one that rhymes with...Glamazon...",
-                "link" : "https://github.com/noracbyrd/glamazon-db",
-                "image" : "http://ryanabney.com/nora/glamzon.png",
-                "alt" : "Glamazon thumbnail"
+                "title": "GLAMAZON",
+                "text": "This CLI project in Node.js creates a mock online retail store, loosely modeled after one that rhymes with...Glamazon...",
+                "link": "https://github.com/noracbyrd/glamazon-db",
+                "image": "http://ryanabney.com/nora/glamzon.png",
+                "alt": "Glamazon thumbnail"
             },
             {
                 "key": 5,
-                "title" : "LIRI",
-                "text" : "This CLI project in Node.js creates a program that can accept a finite number of commands, performs different kinds of serches for the commands, and returns relevant data from the searches.",
-                "link" : "https://github.com/noracbyrd/liri-node-app",
-                "image" : "http://ryanabney.com/nora/liri.png",
-                "alt" : "LIRI thumbnail"
+                "title": "LIRI",
+                "text": "This CLI project in Node.js creates a program that can accept a finite number of commands, performs different kinds of serches for the commands, and returns relevant data from the searches.",
+                "link": "https://github.com/noracbyrd/liri-node-app",
+                "image": "http://ryanabney.com/nora/liri.png",
+                "alt": "LIRI thumbnail"
             }
         ]
     }
-    
-    componentDidMount(){
+
+    componentDidMount() {
         // M.AutoInit();
     }
 
     render() {
         return (
-            <div className="container">
-                {/* looping through my included projects */}
-                <div className="row">
-                    <div className="col s6 offset-s3">
-                        <h4>Projects</h4>
-                    </div>
-                </div>
-                <div className="row">
-                    
-                {this.state.projects.map(project => (
-                    // <div data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing = "linear">
-                        <div key={project.key}>
-                            <PortfolioCard 
-                            title={project.title}
-                                text={project.text}
-                                link={project.link}
-                                image={project.image}
-                                alt={project.alt}
-                            />
+            <div className="background">
+                <div className="container">
+                    {/* looping through my included projects */}
+                    <div className="row">
+                        <div className="col s6 offset-s3">
+                            <h4>Projects</h4>
                         </div>
-                        // </div>
-                ))}
-                
+                    </div>
+                    <div className="row">
+
+                        {this.state.projects.map(project => (
+                            // <div data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing = "linear">
+                            <div key={project.key}>
+                                <PortfolioCard
+                                    title={project.title}
+                                    text={project.text}
+                                    link={project.link}
+                                    image={project.image}
+                                    alt={project.alt}
+                                />
+                            </div>
+                            // </div>
+                        ))}
+
+                    </div>
                 </div>
             </div>
         )
