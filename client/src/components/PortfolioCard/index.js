@@ -1,12 +1,14 @@
 import React from "react";
+// import M from "materialize-css";
 import "./style.css";
 
 function PortfolioCard(props) {
+  // M.AutoInit()
   return (
-    <div>
-     
-      <div className="row">
-        <div className="col s12">
+
+    < div className="col s6">
+      
+          {/* <div className="carousel-fixed-item center card hoverable"> */}
           <div className="card hoverable">
             <div id="layer" className="card-image">
               <img src={props.image} alt={props.alt}></img>
@@ -19,10 +21,9 @@ function PortfolioCard(props) {
               <a id="projectLink" href={props.link}><span className="black-text">View Project</span></a>
             </div>
           </div>
-        </div>
-      </div>
-   
+      
     </div>
+
   )
 }
 

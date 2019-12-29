@@ -11,6 +11,7 @@ function App() {
       <div className="container">
         <About />
         <br></br>
+        <br></br>
         <Portfolio />
       </div>
     </div>

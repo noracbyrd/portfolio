@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import PortfolioCard from "../PortfolioCard"
+// import M from "materialize-css"
 import "./style.css"
 
 
@@ -50,13 +51,15 @@ class Portfolio extends Component {
     }
     
     componentDidMount(){
-        this.M = window.M;
+        // M.AutoInit();
     }
 
     render() {
         return (
             <div className="container">
                 {/* looping through my included projects */}
+                <div className="row">
+                    
                 {this.state.projects.map(project => (
                     // <div data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing = "linear">
                         <div key={project.key}>
@@ -70,6 +73,8 @@ class Portfolio extends Component {
                         </div>
                         // </div>
                 ))}
+                
+                </div>
             </div>
         )
     }

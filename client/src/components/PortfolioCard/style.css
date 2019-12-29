@@ -1,6 +1,7 @@
 .card{
     border: solid 5px #ca7a7a;
     border-radius: .5rem;
+    display: inline-block;
 }
 .card-action{
     color: #ca7a7a;
