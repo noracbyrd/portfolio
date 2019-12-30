@@ -12,7 +12,7 @@ class Contact extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div classname="secretLink">
+                        <div className="secretLink">
                             <a><img alt="ncb logo" src="http://ryanabney.com/nora/ncb.png"></img></a>
                         </div>
                     </div>
