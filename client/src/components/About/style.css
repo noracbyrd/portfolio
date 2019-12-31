@@ -25,9 +25,7 @@ a{
 }
 
 @media screen and (max-width: 640px) {
-    #pictureBox{
-        /* display: none; */
-    }
+
     #bio{
         display: block;
         width: 100%;
