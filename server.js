@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "production") {
 
 // rewrite
 app.use("/", function(req,res) {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+    res.sendFile(path.join(__dirname, 'client', 'build'))
 })
 
 app.listen(PORT, function() {
