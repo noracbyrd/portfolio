@@ -12,12 +12,12 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col s4 left">
+                    <div className="col s12 m4 l4 left">
                         <div id="pictureBox">
-                            <img id="headshot" src="http://ryanabney.com/nora/nora_fun_square.jpg" alt="Nora with a tiara"></img>
+                            <img className="responsive-img" id="headshot" src="http://ryanabney.com/nora/nora_fun_square.jpg" alt="Nora with a tiara"></img>
                         </div>
                     </div>
-                    <div className="col s8 right">
+                    <div className="col s12 m8 l8 right">
                         <div id="bio">
                             <p>Nora is a full stack developer with a particular interest in backend. She graduated from the University of Pennsylvania with a degree in
                                 Classics (Greek and Latin) but eventually decided to spend more time in the twenty-first
@@ -28,7 +28,7 @@ class About extends Component {
                             <br></br>
                             <p>In her spare time, Nora loves to sing, whether at traditional Irish sessions, voice lessons, or volunteering with Sharing Notes. She also has a bit of a comic book habit.</p>
                         </div>
-                    </div>
+                     </div>
                 </div>
             </div>
         )

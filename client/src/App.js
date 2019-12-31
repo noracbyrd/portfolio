@@ -3,7 +3,9 @@ import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
-import './App.css';
+import "./App.css"
+import { Route } from "react-router-dom"
+
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
         <br></br>
         <br></br>
         <Contact />
+        <div className="row">
+          <div className="secretLink">
+            <a><img alt="ncb logo" src="http://ryanabney.com/nora/ncb.png"></img></a>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ function PortfolioCard(props) {
   Aos.init();
   return (
 
-    < div className="col s6">
+    < div className="col s12 m6 l6">
       
           {/* <div className="carousel-fixed-item center card hoverable"> */}
           <div data-aos="zoom-in" className="card hoverable">
