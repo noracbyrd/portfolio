@@ -30,3 +30,30 @@ function App() {
 }
 
 export default App;
+
+// import React, {Component} from 'react';
+// import {Route} from 'react-router-dom'
+// // components
+// import Home from './pages/home'
+// import Singer from "./pages/singer"
+
+
+// function App() {
+  
+//   render() {
+//     return (
+//       <div className="App">
+//         {/* Routes to different components */}
+//         <Route
+//           exact path="/"
+//           component={Home} />
+//         <Route
+//           exact path="/singer"
+//           component={Singer} />}
+//         />
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
