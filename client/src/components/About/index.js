@@ -14,7 +14,7 @@ class About extends Component {
                 <div className="row">
                     <div className="col s12 m4 l4 left">
                         <div id="pictureBox">
-                            <img className="responsive-img" id="headshot" src="http://ryanabney.com/nora/nora_fun_square.jpg" alt="Nora with a tiara"></img>
+                            <img className="responsive-img" id="headshot" src="http://ryanabney.com/nora/nora_serious_square.jpg" alt="Nora with a tiara"></img>
                         </div>
                     </div>
                     <div className="col s12 m8 l8 right">
@@ -26,7 +26,7 @@ class About extends Component {
                                 and
                     marketing technology in the process. She is very excited to begin her programming journey!</p>
                             <br></br>
-                            <p>In her spare time, Nora loves to sing, whether at traditional Irish sessions, voice lessons, or volunteering with Sharing Notes. She also has a bit of a comic book habit.</p>
+                            <p>In her spare time, Nora loves to sing, whether at traditional Irish sessions, voice lessons, or volunteering with Sharing Notes. She is also an avid reader and has a bit of a comic book habit.</p>
                         </div>
                      </div>
                 </div>
