@@ -19,8 +19,8 @@ class About extends Component {
                     </div>
                     <div className="col s12 m8 l8 right">
                         <div id="bio">
-                            <p>Nora is a full stack developer with a particular interest in backend. She graduated from the University of Pennsylvania with a degree in
-                                Classics (Greek and Latin) but eventually decided to spend more time in the twenty-first
+                            <p>Nora is a full stack developer with a particular interest in backend. She graduated from the Northwestern Full-Stack Coding Bootcamp in November 2019. Her undergraduate degree is from the University of Pennsylvania in
+                                Classical Studies (Greek and Latin), but she eventually decided to spend more time in the twenty-first
                                 century.
                                 She worked in digital marketing for six and a half years and learned a lot about client services
                                 and

@@ -14,7 +14,7 @@ class Home extends Component {
     render(){
   return (
     <div className="App">
-      <Navbar />
+      <Navbar title={this.state.navTitle}/>
       <div className="container">
         <About />
         <br></br>
