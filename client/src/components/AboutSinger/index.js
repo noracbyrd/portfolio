@@ -1,20 +1,20 @@
 import React, { Component } from "react"
 import "./style.css"
 
-class About extends Component {
+class AboutSinger extends Component {
     render() {
         return (
             <div>
                 <br></br>
                 <br></br>
                 <div className="row">
-                    <div className="col s6 offset-s3"><span className="flow-text">And she sings, too!</span>
+                    <div className="col s6 offset-s3"><span className="flow-text"><h4 className="aSinger">And she sings, too!</h4></span>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col s12 m4 l4 left">
                         <div id="pictureBox">
-                            <img className="responsive-img" id="headshot" src="http://ryanabney.com/nora/nora_fun_square.jpg" alt="Nora with a tiara"></img>
+                            <img className="responsive-img" id="headshotSinger" src="http://ryanabney.com/nora/nora_fun_square.jpg" alt="Nora with a tiara"></img>
                         </div>
                     </div>
                     <div className="col s12 m8 l8 right">
@@ -30,4 +30,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default AboutSinger;

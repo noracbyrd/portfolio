@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NavbarSinger from "../components/NavbarSinger"
 import AboutSinger from "../components/AboutSinger"
-import Portfolio from "../components/Portfolio"
+import PortfolioSinger from "../components/PortfolioSinger"
 import Contact from "../components/Contact"
 
 
@@ -17,13 +17,13 @@ class Singer extends Component {
                     <AboutSinger />
                     <br></br>
                     <br></br>
-                    <Portfolio />
+                    <PortfolioSinger />
                     <br></br>
                     <br></br>
                     <Contact />
                     <div className="row">
                         <div className="secretLink">
-                            <a><img alt="ncb logo" src="http://ryanabney.com/nora/ncb.png"></img></a>
+                            <a href="/"><img alt="ncb logo" src="http://ryanabney.com/nora/ncb-pink.png"></img></a>
                         </div>
                     </div>
                 </div>

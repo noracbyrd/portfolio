@@ -1,9 +1,10 @@
-nav {
+.singerNav {
     text-align: center;
-    background-color: #ca7a7a;
+    background-color: #3997f1;
     margin: auto;
     font-family: 'Oleo Script', cursive;
     font-size: 18px;
+    padding-left: 10%;
     padding-right: 25%;
 }
 

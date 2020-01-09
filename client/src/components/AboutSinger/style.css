@@ -1,7 +1,7 @@
-#headshot{
+#headshotSinger{
     width: 200px;
     height: 200px;
-    border: 5px solid #ca7a7a;
+    border: 5px solid #3997f1;
     border-radius: .5rem;
     display: left;
 }
@@ -20,8 +20,8 @@ p{
     margin: auto;
 }
 
-a{
-    color: #ca7a7a;
+.aSinger{
+    color: #3997f1;
 }
 
 @media screen and (max-width: 640px) {

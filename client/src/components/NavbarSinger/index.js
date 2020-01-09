@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 
-function Navbar(props) {
+function NavbarSinger(props) {
         return (
-            <nav>
+            <nav className="singerNav">
                 <div className="container">
                     <div className="brand-logo">{props.title}</div>
                 </div>
             </nav>
                 )
         }
-        export default Navbar;
+        export default NavbarSinger;
