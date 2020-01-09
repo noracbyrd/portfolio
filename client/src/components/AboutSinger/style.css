@@ -1,0 +1,33 @@
+#headshot{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #ca7a7a;
+    border-radius: .5rem;
+    display: left;
+}
+
+#pictureBox {
+    border-radius: .5rem;
+    display: inline-block;
+}
+
+#bio{
+    display: right;
+}
+
+p{
+    text-align: left;
+    margin: auto;
+}
+
+a{
+    color: #ca7a7a;
+}
+
+@media screen and (max-width: 640px) {
+
+    #bio{
+        display: block;
+        width: 100%;
+    }
+  } 

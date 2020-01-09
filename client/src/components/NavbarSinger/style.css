@@ -1,0 +1,20 @@
+nav {
+    text-align: center;
+    background-color: #ca7a7a;
+    margin: auto;
+    font-family: 'Oleo Script', cursive;
+    font-size: 18px;
+    padding-right: 25%;
+}
+
+  @media screen and (max-width: 640px) {
+    nav .brand-logo{
+      width: 100%;
+      text-align: center;
+      font-size: 1.375rem;
+      position: absolute;
+    }
+    nav{
+      width: 100%;
+    }
+  } 
