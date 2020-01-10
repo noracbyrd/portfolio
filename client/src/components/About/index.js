@@ -24,7 +24,7 @@ class About extends Component {
                                 century.
                                 She worked in digital marketing for six and a half years and learned a lot about client services
                                 and
-                    marketing technology in the process. She is very excited to begin her programming journey!</p>
+                    marketing technology in the process.</p>
                             <br></br>
                             <p>In her spare time, Nora loves to sing, whether at traditional Irish sessions, voice lessons, or volunteering with Sharing Notes. She is also an avid reader and has a bit of a comic book habit.</p>
                         </div>
