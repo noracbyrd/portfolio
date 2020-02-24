@@ -62,6 +62,7 @@ class Portfolio extends Component {
                     <div className="row">
                         <div className="col s6 offset-s3">
                             <h4>Projects</h4>
+                            <h6>Scroll down to view</h6>
                         </div>
                     </div>
                     <div className="row">

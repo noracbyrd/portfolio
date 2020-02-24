@@ -26,6 +26,8 @@ class About extends Component {
                                 and
                     marketing technology in the process.</p>
                             <br></br>
+                            <p><strong>Technologies: </strong>React, Node, Express, Javascript, MongoDB/Mongoose, SQL/Sequelize, jQuery, HTML, CSS, Bootstrap, Materialize, RESTful APIs, MVC, Heroku Deployment, Git, Github </p>
+                            <br></br>
                             <p>In her spare time, Nora loves to sing, whether at traditional Irish sessions, voice lessons, or volunteering with Sharing Notes. She is also an avid reader and has a bit of a comic book habit.</p>
                         </div>
                      </div>
