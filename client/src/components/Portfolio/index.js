@@ -13,7 +13,8 @@ class Portfolio extends Component {
                 "text": "All About Eve is a crowd-sourcing health page by women, for women; a space for women to discuss women's health issues and products openly and frankly.",
                 "link": "https://radiant-hamlet-57340.herokuapp.com",
                 "image": "http://ryanabney.com/nora/allaboutevetn.png",
-                "alt": "All About Eve thumbnail"
+                "alt": "All About Eve thumbnail",
+                "tech": "React.js, Node.js, MongoDB"
             },
             {
                 "key": 2,
@@ -21,7 +22,8 @@ class Portfolio extends Component {
                 "text": "Chicago School Search allows Chicago citizens to find data about their local schools, and also provides them with an easy way to contact their local alderman.",
                 "link": "https://chicago-school-info.herokuapp.com/",
                 "image": "http://ryanabney.com/nora/chicagoschoolsearch.png",
-                "alt": "Chicago School Search thumbnail"
+                "alt": "Chicago School Search thumbnail",
+                "tech": "Node.js, jQuery, MySQL"
             },
             {
                 "key": 3,
@@ -29,7 +31,8 @@ class Portfolio extends Component {
                 "text": "The goal of this game, built in React, is to click all of the pictures without clicking on the same one twice.",
                 "link": "https://stormy-castle-50493.herokuapp.com/",
                 "image": "http://ryanabney.com/nora/memorygame.png",
-                "alt": "Memory Game thumbnail"
+                "alt": "Memory Game thumbnail",
+                "tech": "React.js"
             },
             {
                 "key": 4,
@@ -37,7 +40,8 @@ class Portfolio extends Component {
                 "text": "This CLI project in Node.js creates a mock online retail store, loosely modeled after one that rhymes with...Glamazon...",
                 "link": "https://github.com/noracbyrd/glamazon-db",
                 "image": "http://ryanabney.com/nora/glamzon.png",
-                "alt": "Glamazon thumbnail"
+                "alt": "Glamazon thumbnail",
+                "tech": "Node.js"
             },
             {
                 "key": 5,
@@ -45,7 +49,8 @@ class Portfolio extends Component {
                 "text": "This CLI project in Node.js creates a program that can accept a finite number of commands, performs different kinds of serches for the commands, and returns relevant data from the searches.",
                 "link": "https://github.com/noracbyrd/liri-node-app",
                 "image": "http://ryanabney.com/nora/liri.png",
-                "alt": "LIRI thumbnail"
+                "alt": "LIRI thumbnail",
+                "tech": "Node.js, BandsInTown API, Spotify API, OMDb API"
             }
         ]
     }
