@@ -81,6 +81,7 @@ class Portfolio extends Component {
                                     link={project.link}
                                     image={project.image}
                                     alt={project.alt}
+                                    tech={project.tech}
                                 />
                             </div>
                             // </div>

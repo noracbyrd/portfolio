@@ -18,6 +18,8 @@ function PortfolioCard(props) {
             <div className="card-content">
               <h5>{props.title}</h5>
               <p>{props.text}</p>
+              <br></br>
+              <p><strong>Built in: {props.tech}</strong></p>
             </div>
             <div id="link" className="card-action">
               <a id="projectLink" href={props.link}><span className="black-text">View Project</span></a>
