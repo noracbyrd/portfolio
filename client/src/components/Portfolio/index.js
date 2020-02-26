@@ -14,7 +14,8 @@ class Portfolio extends Component {
                 "link": "https://radiant-hamlet-57340.herokuapp.com",
                 "image": "http://ryanabney.com/nora/allaboutevetn.png",
                 "alt": "All About Eve thumbnail",
-                "tech": "React.js, Node.js, MongoDB"
+                "tech": "React.js, Node.js, MongoDB",
+                "github": "https://github.com/all-about-eve-team/all-about-eve"
             },
             {
                 "key": 2,
@@ -23,7 +24,8 @@ class Portfolio extends Component {
                 "link": "https://chicago-school-info.herokuapp.com/",
                 "image": "http://ryanabney.com/nora/chicagoschoolsearch.png",
                 "alt": "Chicago School Search thumbnail",
-                "tech": "Node.js, jQuery, MySQL"
+                "tech": "Node.js, jQuery, MySQL",
+                "github": "https://github.com/Chicago-School-Information/school-info"
             },
             {
                 "key": 3,
@@ -32,25 +34,28 @@ class Portfolio extends Component {
                 "link": "https://stormy-castle-50493.herokuapp.com/",
                 "image": "http://ryanabney.com/nora/memorygame.png",
                 "alt": "Memory Game thumbnail",
-                "tech": "React.js"
+                "tech": "React.js",
+                "github": "https://github.com/noracbyrd/clicky-game-memory"
             },
             {
                 "key": 4,
                 "title": "GLAMAZON",
                 "text": "This CLI project in Node.js creates a mock online retail store, loosely modeled after one that rhymes with...Glamazon...",
-                "link": "https://github.com/noracbyrd/glamazon-db",
+                "link": "https://github.com/noracbyrd/glamazon-db/blob/master/README.md",
                 "image": "http://ryanabney.com/nora/glamzon.png",
                 "alt": "Glamazon thumbnail",
-                "tech": "Node.js"
+                "tech": "Node.js",
+                "github": "https://github.com/noracbyrd/glamazon-db"
             },
             {
                 "key": 5,
                 "title": "LIRI",
                 "text": "This CLI project in Node.js creates a program that can accept a finite number of commands, performs different kinds of serches for the commands, and returns relevant data from the searches.",
-                "link": "https://github.com/noracbyrd/liri-node-app",
+                "link": "https://github.com/noracbyrd/liri-node-app/blob/master/README.md",
                 "image": "http://ryanabney.com/nora/liri.png",
                 "alt": "LIRI thumbnail",
-                "tech": "Node.js, BandsInTown API, Spotify API, OMDb API"
+                "tech": "Node.js, BandsInTown API, Spotify API, OMDb API",
+                "github": "https://github.com/noracbyrd/liri-node-app"
             }
         ]
     }
@@ -82,6 +87,7 @@ class Portfolio extends Component {
                                     image={project.image}
                                     alt={project.alt}
                                     tech={project.tech}
+                                    github={project.github}
                                 />
                             </div>
                             // </div>

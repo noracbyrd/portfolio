@@ -22,7 +22,8 @@ function PortfolioCard(props) {
               <p><strong>Built in: {props.tech}</strong></p>
             </div>
             <div id="link" className="card-action">
-              <a id="projectLink" href={props.link}><span className="black-text">View Project</span></a>
+              <a id="projectLink" href={props.link}>View Project</a>
+              <a id="projectLink" href={props.github}>Github</a>
             </div>
           </div>
       

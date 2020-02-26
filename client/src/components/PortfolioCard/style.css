@@ -30,6 +30,10 @@ h5{
     color:white;
 }
 
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #ca7a7a;
+}
+
 @media screen and (max-width: 640px) {
     .card{
         width: 100%;
