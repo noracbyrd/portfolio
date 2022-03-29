@@ -19,15 +19,16 @@ class About extends Component {
                     </div>
                     <div className="col s12 m8 l8 right">
                         <div id="bio">
-                            <p>Nora is a full stack developer with a particular interest in backend. She graduated from the Northwestern Full-Stack Coding Bootcamp in November 2019. Her undergraduate degree is from the University of Pennsylvania in
+                            <p>Nora is a full stack developer with a particular interest in frontend. She graduated from the Northwestern Full-Stack Coding Bootcamp in November 2019 and has been working at Accenture ever since. Her undergraduate degree is from the University of Pennsylvania in
                                 Classical Studies (Greek and Latin), but she eventually decided to spend more time in the twenty-first
                                 century.
-                                She worked in digital marketing for six and a half years and learned a lot about client services
+                                Before becoming a programmer, she worked in digital marketing for six and a half years and learned a lot about client services
                                 and
                     marketing technology in the process.</p>
                             <br></br>
-                            <p><strong>Technologies: </strong>React, Node, Express, Javascript, MongoDB/Mongoose, SQL/Sequelize, jQuery, HTML, CSS, Bootstrap, Materialize, RESTful APIs, MVC, Heroku Deployment, Git, Github </p>
+                            <p><strong>Technologies: </strong>React.js, Node.js, Express, Javascript, Materialize CSS, HTML5, ForgeRock JavaScript SDK, ForgeRock IDM, ForgeRock AM, ForgeRock IG, LDAP, MongoDB/Mongoose, SQL/Sequelize, jQuery, Bootstrap, RESTful APIs, MVC, Jenkins, Heroku Deployment, Git, Github, Bitbucket </p>
                             <br></br>
+                            <p>AWS Associate Developer Certification</p>
                             <p>In her spare time, Nora loves to sing, whether at traditional Irish sessions, voice lessons, or volunteering with Sharing Notes. She is also an avid reader and has a bit of a comic book habit.</p>
                         </div>
                      </div>
